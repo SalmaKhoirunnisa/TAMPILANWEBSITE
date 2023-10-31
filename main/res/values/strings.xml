@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Nama Aplikasi Anda</string>
+    <string name="store">STORE</string>
+    <string name="your_name">YOUR NAME</string>
+    <string name="submit">SUBMIT</string>
+    <!-- Tambahkan string lainnya sesuai kebutuhan -->
+</resources>

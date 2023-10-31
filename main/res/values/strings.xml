@@ -1,7 +1,10 @@
 <resources>
     <string name="app_name">Nama Aplikasi Anda</string>
-    <string name="store">STORE</string>
-    <string name="your_name">YOUR NAME</string>
-    <string name="submit">SUBMIT</string>
-    <!-- Tambahkan string lainnya sesuai kebutuhan -->
+    <string name="hello_text">HALLO, ASEP</string>
+    <string name="store_text">STORE</string>
+    <string name="cihampelas_text">CIHAMPELAS</string>
+    <string name="location_text">LOCATION</string>
+    <string name="find_on_maps_text">FIND ON MAPS</string>
+    <string name="see_menu_button">SEE MENU</string>
+
 </resources>

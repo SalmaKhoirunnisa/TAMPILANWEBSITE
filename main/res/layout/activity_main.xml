@@ -3,145 +3,103 @@
     android:layout_height="match_parent"
     android:background="@android:color/white">
 
+    <!-- Gambar "PEOPLE MALE" -->
+    <ImageView
+        android:id="@+id/maleImageView"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:src="@drawable/person"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="11dp" />
+
+    <!-- Teks "HALLO, ASEP" -->
+    <TextView
+        android:id="@+id/helloTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello, Asep"
+        android:textColor="@android:color/black"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="19dp" />
+
     <!-- Gambar "IMAGE" -->
+
+    <!-- Teks "STORE" -->
+
     <ImageView
         android:id="@+id/mainImage"
         android:layout_width="411dp"
         android:layout_height="250dp"
         android:layout_marginStart="14dp"
         android:layout_marginTop="60dp"
-        android:src="@drawable/img" />
+        android:src="@drawable/HOTEL" />
 
-    <!-- Teks "STORE" -->
     <TextView
         android:id="@+id/storeTextView"
-        android:layout_width="60.64dp"
-        android:layout_height="29.67dp"
+        android:layout_width="88dp"
+        android:layout_height="30dp"
         android:text="Store"
         android:textColor="#F82F2F"
         android:textStyle="bold"
-        android:layout_marginStart="57.1dp"
-        android:layout_marginTop="377dp" />
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="336dp" />
+
+    <!-- Teks "CIHAMPELAS" -->
+    <TextView
+        android:id="@+id/cihampelasTextView"
+        android:layout_width="88dp"
+        android:layout_height="30dp"
+        android:text="Cihampelas"
+        android:textColor="@android:color/black"
+        android:layout_marginStart="304dp"
+        android:layout_marginTop="336dp" />
+
+    <!-- Teks "LOCATION" -->
+    <TextView
+        android:id="@+id/locationTextView"
+        android:layout_width="88dp"
+        android:layout_height="30dp"
+        android:text="Location"
+        android:textColor="#F82F2F"
+        android:textStyle="bold"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="382dp" />
 
     <!-- Gambar "LOCATION PIN" -->
     <ImageView
         android:id="@+id/locationPinImageView"
         android:layout_width="24dp"
         android:layout_height="23dp"
-        android:src="@drawable/segitiga"
-        android:layout_marginStart="374dp"
-        android:layout_marginTop="420dp" />
+        android:src="@drawable/MAPS"
+        android:layout_marginStart="367dp"
+        android:layout_marginTop="377dp" />
 
-    <!-- Teks "Cihampelas" -->
+
+    <!-- Teks "FIND ON MAPS" -->
     <TextView
-        android:id="@+id/choice"
-        android:layout_width="250.29dp"
-        android:layout_height="29.67dp"
-        android:layout_marginStart="63.61dp"
-        android:layout_marginTop="422.19dp"
-        android:text="Cihampelas"
-        android:textColor="@android:color/black" />
-
-    <!-- View (garis) -->
-    <View
-        android:id="@+id/rectaleView"
-        android:layout_width="319.96dp"
-        android:layout_height="48.3dp"
-        android:layout_marginStart="52dp"
-        android:layout_marginTop="406dp"
-        android:elevation="4dp" />
-
-    <!-- View untuk bayangan (shadow) -->
-    <View
-        android:layout_width="319.96dp"
-        android:layout_height="4dp"
-        android:layout_marginStart="52dp"
-        android:layout_marginTop="454.3dp"
-        android:background="#e0e0e0" />
-
-    <!-- Teks "Cibiru" -->
-
-    <TextView
-        android:id="@+id/choice1"
-        android:layout_width="250.29dp"
-        android:layout_height="29.67dp"
-        android:layout_marginStart="63.61dp"
-        android:layout_marginTop="470.19dp"
-        android:text="Cibiru"
-        android:textColor="@android:color/black" />
-
-    <!-- View (garis) -->
-    <View
-        android:id="@+id/rectale2View"
-        android:layout_width="319.96dp"
-        android:layout_height="48.3dp"
-        android:layout_marginStart="52dp"
-        android:layout_marginTop="454.7dp"
-        android:elevation="4dp" />
-
-    <!-- View untuk bayangan (shadow) -->
-    <View
-        android:layout_width="319.96dp"
-        android:layout_height="4dp"
-        android:layout_marginStart="52dp"
-        android:layout_marginTop="500.7dp"
-        android:background="#e0e0e0" />
-    <!-- Teks "STORE" -->
-    <TextView
-        android:id="@+id/yournameView"
-        android:layout_width="189dp"
+        android:id="@+id/findOnMapsTextView"
+        android:layout_width="109dp"
         android:layout_height="30dp"
-        android:text="Store"
-        android:textColor="#F82F2F"
-        android:textStyle="bold"
-        android:layout_marginStart="57dp"
-        android:layout_marginTop="529dp" />
-    <!-- Teks "Cihampelas" -->
-    <TextView
-        android:id="@+id/choice3"
-        android:layout_width="151dp"
-        android:layout_height="19dp"
-        android:layout_marginStart="64dp"
-        android:layout_marginTop="577dp"
-        android:text="Pleas fill yout name"
-        android:textColor="#3A3737" />
-
-
-    <!-- View (garis) -->
-    <View
-        android:id="@+id/rectale3View"
-        android:layout_width="319.96dp"
-        android:layout_height="48.3dp"
-        android:layout_marginStart="52dp"
-        android:layout_marginTop="560.7dp"
-        android:elevation="4dp" />
-
-    <!-- View untuk bayangan (shadow) -->
-    <View
-        android:layout_width="319.96dp"
-        android:layout_height="4dp"
-        android:layout_marginStart="52dp"
-        android:layout_marginTop="606dp"
-        android:background="#e0e0e0" />
-
+        android:text="Find on Maps"
+        android:textColor="@android:color/black"
+        android:layout_marginStart="264dp"
+        android:layout_marginTop="382dp" />
 
     <View
         android:id="@+id/rectangleView"
-        android:layout_width="319.96dp"
-        android:layout_height="48.3dp"
-        android:layout_marginStart="52dp"
-        android:layout_marginTop="638dp"
+        android:layout_width="365dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="456dp"
         android:background="#F44336" />
-    <!-- Teks "Cihampelas" -->
     <TextView
-        android:id="@+id/submit"
-        android:layout_width="65dp"
+        android:id="@+id/seemenu"
+        android:layout_width="109dp"
         android:layout_height="23dp"
-        android:layout_marginStart="173dp"
-        android:layout_marginTop="650dp"
-        android:text="SUBMIT"
-        android:textColor="#FFFCFC" />
-
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="468dp"
+        android:text="see menu"
+        android:textColor="@android:color/white" />
 
 
 </RelativeLayout>
